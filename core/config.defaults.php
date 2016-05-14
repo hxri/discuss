@@ -55,7 +55,7 @@ $config["esoTalk.database.connectionOptions"] = array(
 $config["esoTalk.forumTitle"] = "";
 $config["esoTalk.forumLogo"] = false; // Path to an image file to replace the title (don't make it too big or it'll stretch the header!)
 $config["esoTalk.language"] = "English";
-$config["esoTalk.baseURL"] = "";
+$config["esoTalk.baseURL"] = "https://discuss-citros.rhcloud.com/";
 $config["esoTalk.resourceURL"] = ""; // URL used for all resources (CSS+JS+images, including those from plugins and skins.) If blank, the base URL will be used.
 $config["esoTalk.rootAdmin"] = 1; // The member ID of the root administrator.
 $config["esoTalk.emailFrom"] = ""; // The email address to send forum emails (notifications etc.) from.
@@ -63,7 +63,7 @@ $config["esoTalk.debug"] = false; // Debug mode will show advanced information i
 $config["esoTalk.aggregateCSS"] = true;
 $config["esoTalk.aggregateJS"] = true;
 $config["esoTalk.gzipOutput"] = true; // Whether or not to compress the page output with gzip.
-$config["esoTalk.https"] = false; // Whether or not to force HTTPS.
+$config["esoTalk.https"] = true; // Whether or not to force HTTPS.
 $config["esoTalk.cache"] = false; // What type of cache to use.
 $config["esoTalk.visibleToGuests"] = true;
 
